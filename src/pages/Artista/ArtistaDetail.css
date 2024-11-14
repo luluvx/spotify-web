@@ -1,0 +1,79 @@
+#card-artista{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+    height: 270px;
+    background-color: #181818;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: end;
+    padding: 0;
+
+    
+}
+
+
+#artistaNombre{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'AvantGarde';
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#albumNombre{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'AvantGarde';
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card-cancion{
+
+
+    color: #cccaca;
+    height: 80px;
+    border-radius: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+    width: 100%;
+    background-color: transparent;
+    border-style: none;
+    border-bottom-style: solid;
+    border-top-style: solid ;
+}
+#cancionNombre{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Jost-Regular';
+    text-transform: capitalize;
+}
+
+#contenido-container{
+    background-color: #181818;
+    padding: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 0 0 10px 10px;
+}
+#artistaImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+
+
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #181818;
+
+}
+

@@ -1,0 +1,23 @@
+#card-genero{
+    background-color: #272727;
+    width: 210px;
+    height: 160px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border: none;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    
+
+}
+#genero-titulo{
+    position: relative;
+    top: 40%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'AvantGarde';
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0;
+}

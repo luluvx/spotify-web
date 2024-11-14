@@ -1,0 +1,40 @@
+#buscador {
+
+    border: none;
+    background-color: #222;
+    font-family: 'Jost-Regular';
+    color: #e8e6e6;
+}
+
+#buscador::placeholder {
+    color: #e8e6e6;
+}
+
+.menu-desplegable {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #222;
+    border-radius: 4px;
+    z-index: 1000;
+    max-height: 200px;
+    overflow-y: auto;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Jost-Regular';
+}
+
+.item-busqueda {
+    background-color: #222;
+    color: white;
+    border: none;
+    text-align: left;
+    font-family: 'Jost-Regular';
+}
+
+.item-busqueda:hover {
+    background-color: #333; 
+}
